@@ -9,7 +9,7 @@ cask "qingdict" do
   homepage "https://github.com/etanxing/qingdict-releases"
 
   depends_on arch: :arm64
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "轻词.app"
 
