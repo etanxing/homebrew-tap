@@ -1,11 +1,11 @@
 cask "qingdict" do
-  version "1.0.1"
-  sha256 "dc7ae725e8f7d54217ccb9cb6b876cae2f634d2a2e71f18832ce9f6cf6a0dbf7"
+  version "1.1.0"
+  sha256 "aaeaf9f7d08e2a56693bdea8b21bc2ed1a72f94edaaf2ce8ba870b654487e48a"
 
   url "https://github.com/etanxing/qingdict-releases/releases/download/v#{version}/QingDict-#{version}-arm64.zip"
   name "QingDict"
   name "轻词"
-  desc "Menu bar dictionary with Youdao definitions and pronunciation"
+  desc "Menu bar dictionary with offline lookup and Youdao pronunciation"
   homepage "https://github.com/etanxing/qingdict-releases"
 
   depends_on arch: :arm64
