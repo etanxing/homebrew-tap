@@ -1,6 +1,6 @@
 cask "qingdict" do
-  version "1.0.0"
-  sha256 "22899f0baada3acb10ab93819df42c2aa2121ef81a33ae6a242579e0ec640793"
+  version "1.0.1"
+  sha256 "dc7ae725e8f7d54217ccb9cb6b876cae2f634d2a2e71f18832ce9f6cf6a0dbf7"
 
   url "https://github.com/etanxing/qingdict-releases/releases/download/v#{version}/QingDict-#{version}-arm64.zip"
   name "QingDict"
