@@ -1,6 +1,6 @@
 cask "regionclick" do
-  version "1.0.0"
-  sha256 "5c4d7cc21883985b19c07868787bb7de33a6f3075347f6fa41714d02adb5e882"
+  version "1.0.1"
+  sha256 "fbc3c41dddc5c6692c7a7134c1e393e078df0af030de94121ee574cd7b13ccab"
 
   url "https://github.com/etanxing/regionclick-releases/releases/download/v#{version}/RegionClick-#{version}-arm64.zip"
   name "RegionClick"
