@@ -1,17 +1,17 @@
 cask "regionclick" do
-  version "1.0.1"
-  sha256 "fbc3c41dddc5c6692c7a7134c1e393e078df0af030de94121ee574cd7b13ccab"
+  version "1.0.2"
+  sha256 "dd64006cd120cf8cfca502ce4635e677eec7a3028b637175355056587538c911"
 
   url "https://github.com/etanxing/regionclick-releases/releases/download/v#{version}/RegionClick-#{version}-arm64.zip"
   name "RegionClick"
-  name "轻点"
+  name "自动点击"
   desc "Timed auto clicker with selectable screen regions"
   homepage "https://github.com/etanxing/regionclick-releases"
 
   depends_on arch: :arm64
   depends_on macos: :ventura
 
-  app "轻点.app"
+  app "自动点击.app"
 
   uninstall quit: "local.wx.regionclick"
 
